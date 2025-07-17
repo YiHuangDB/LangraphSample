@@ -1,7 +1,7 @@
 {
   "api_keys": {
-    "google": "AIzaSyASpbEtidiBQ343Q65wWMujAGi1KK9dzro",
-    "tavily": "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"
+    "google": "GOOGLE_API_KEY",
+    "tavily": "TAVILY_API_KEY"
   },
   "model": {
     "name": "gemini-2.5-flash",
@@ -21,11 +21,7 @@
   "dependencies": [
     "langchain-google-genai",
     "langchain-tavily"
-  ],
-  "langsmith": {
-    "endpoint": "https://api.smith.langchain.com",
-    "api_key": "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"
-  },
+  ], 
   "prompts": {
     "system_prompt": "You are an assistant that has access to a search tool. Use the search tool to answer questions about recent events or the current state of the world.If you need more information from user, just make an assumtion without ask user.Do not follow up questions"
   }

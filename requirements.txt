@@ -4,3 +4,4 @@ duckduckgo-search
 tavily-python
 langchain-google-genai
 langchain-tavily
+langsmith
